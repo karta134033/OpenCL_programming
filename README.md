@@ -4,6 +4,14 @@ tags: 平行程式設計
 
 # OpenCL Programming
 
+1. Image convolution using OpenCL
+Convolution is a common operation in image processing. It is used for blurring, sharpening, embossing, edge detection, and more. The image convolution process is accomplished by doing a convolution between a small matrix (which is called a filter kernel in image processing) and an image. You may learn more about the convolution process at Wikipedia: Convolution.
+![](https://user-images.githubusercontent.com/18013815/101978949-f7c9f900-3c93-11eb-8cc8-9b99db425b01.png)
+
+Figure 1 shows an illustration of the concept of applying a convolution filter to a specific pixel, value of which is 3. After the convolution process, the value of the pixel becomes 7—how the resulting value is computed is illustrated on the right of the figure.
+
+
+
 ## Q1 
 >(5 points): Explain your implementation. How do you optimize the performance of convolution?
 
