@@ -128,7 +128,9 @@ Figure 1 shows an illustration of the concept of applying a convolution filter t
 若有問題會再提供助教其他的版本。
 
 還有一個0.0000違規的版本，放著做個紀念。
+
 ![](https://i.imgur.com/Q0tI6jY.png)
+
 測試的Script還因此壞掉了:zany_face:
 
 
