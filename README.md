@@ -118,32 +118,7 @@ Figure 1 shows an illustration of the concept of applying a convolution filter t
     
 ----
 報告闡述的版本可能還不夠通用，所以還有實作其他的版本。
-* 0.4940
-![](https://i.imgur.com/fircnWc.png =450x300)
-* 0.6047
-![](https://i.imgur.com/UwT3Q6h.png =450x300)
-* 0.7160 
-**此版本為最後上傳的版本**，不過在工作站上的執行時間滿不穩定的，最終結果可能不同。
-![](https://i.imgur.com/2ZKn2Ve.png =450x300)
-* 0.8737
-![](https://i.imgur.com/VaraiOP.png =450x300)
-* 0.9363
-![](https://i.imgur.com/TBeWiLO.png =450x300)
-* 0.9783
-![](https://i.imgur.com/hb8UTWB.png =450x300)
-* 1.1607
-![](https://i.imgur.com/B1vMeQd.png =450x300)
-* 1.2667
-![](https://i.imgur.com/pYmNvD7.png =450x300)
-* 1.4953
-![](https://i.imgur.com/SSiZktm.png =450x300)
-* 1.5847
-![](https://i.imgur.com/WzTD7Da.png =450x300)
-* 2.1620
-![](https://i.imgur.com/a8jb6it.png =450x300)
-
-
-以上的實作在優化上會有些許不同，但都會符合:
+實作在優化上會有些許不同，但都會符合:
 * 可測試不同的filter，不限制在3個測試的filter
 * filter大小不限
 * 圖片大小不限
