@@ -116,23 +116,6 @@ Figure 1 shows an illustration of the concept of applying a convolution filter t
     
 7. **將資料傳輸方式改為異步**
     
-----
-報告闡述的版本可能還不夠通用，所以還有實作其他的版本。
-實作在優化上會有些許不同，但都會符合:
-* 可測試不同的filter，不限制在3個測試的filter
-* filter大小不限
-* 圖片大小不限
-* 沒有預設輸出值
-* 計算內容皆會初始化
-
-若有問題會再提供助教其他的版本。
-
-還有一個0.0000違規的版本，放著做個紀念。
-
-![](https://i.imgur.com/Q0tI6jY.png)
-
-測試的Script還因此壞掉了:zany_face:
-
 
 ## Q2 
 > (10 points): Rewrite the program using CUDA. (1) Explain your CUDA implementation, (2) plot a chart to show the performance difference between using OpenCL and CUDA, and (3) explain the result.
